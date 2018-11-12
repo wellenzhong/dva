@@ -9,7 +9,12 @@ $ npm install dva-cli -g
 $ dva -v
 dva-cli version 0.9.1
 ```
-
+或者通过yarn命令来安装
+```bash
+$ yarn global add dva-cli
+$ dva -v
+dva-cli version 0.9.1
+```
 ## 创建新应用
 
 安装完 dva-cli 之后，就可以在命令行里访问到 `dva` 命令（[不能访问？](http://stackoverflow.com/questions/15054388/global-node-modules-not-installing-correctly-command-not-found)）。现在，你可以通过 `dva new` 创建新应用。
